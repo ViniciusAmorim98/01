@@ -1,0 +1,114 @@
+@media (min-width: 300px) and (max-width: 800px) {
+    header {
+        background-image: url(img/BG1-MOBILE-8.png);
+    }
+
+    .txt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .txt img {
+        margin-top: 200px;
+    }
+
+    header h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .txt button {
+        margin-top: 0;
+    }
+
+    /*dobra 2*/
+
+    .d2flex {
+        flex-direction: column;
+
+    }
+
+    .img-d2 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .txt-d2 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /*dobra 3*/
+
+    .d3flex {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .card-d3 {
+        width: 100%;
+        box-shadow: 0 0 30px #fe3131a0;
+    }
+
+    .card-d3:hover {
+        transform: none;
+    }
+
+    /*dobra 4*/
+
+    .d4flex {
+        flex-direction: column-reverse;
+    }
+
+    .txt-d4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-d4 {
+        width: 100%;
+    }
+
+    /*dobra 5*/
+
+    .dpflex {
+        flex-direction: column;
+    }
+
+    .card-dp {
+        width: 100%;
+    }
+
+    /*dobra 6*/
+
+    .clientes {
+        flex-direction: column;
+    }
+
+    .clientes img {
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    /*dobra 7*/
+    .focos {
+        flex-direction: column;
+    }
+
+    .boxd7 h2 {
+        font-size: 25px;
+    }
+
+    .cardfoco {
+        width: 100%;
+    }
+
+    .cardfoco img {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+
+
+}
